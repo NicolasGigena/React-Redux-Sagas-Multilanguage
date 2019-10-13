@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90e59a66-6a7d-46e2-bb04-6176509c459e" name="Default Changelist" comment="" />
+    <list default="true" id="90e59a66-6a7d-46e2-bb04-6176509c459e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/reducer.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +20,13 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RwMsqeJZCGqhWR3jji1dAwZZXD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../arquitectura Node/packages/api/app/Application/Handlers/CoursesHandlers/getCourseByIdHandler.ts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/components/molecules" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,6 +38,9 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/components/molecules" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/static" />
       <recent name="$PROJECT_DIR$/app/utils" />
@@ -64,6 +73,7 @@
       <workItem from="1570795776957" duration="800000" />
       <workItem from="1570810385800" duration="1369000" />
       <workItem from="1570835216922" duration="625000" />
+      <workItem from="1570896755849" duration="6722000" />
     </task>
     <servers />
   </component>
