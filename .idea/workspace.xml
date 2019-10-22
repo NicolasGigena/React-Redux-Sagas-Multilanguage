@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e59a66-6a7d-46e2-bb04-6176509c459e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/molecules/CustomModification.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/molecules/CustomModification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.a0cee2cc5a0e38be7148.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/generators/atomicComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/generators/atomicComponent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/generators/utils/seeds/atoms/index.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/config/generators/utils/seeds/atoms/index.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +33,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/components/molecules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quimey-neuquen" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +80,12 @@
       <workItem from="1570795776957" duration="800000" />
       <workItem from="1570810385800" duration="1369000" />
       <workItem from="1570835216922" duration="625000" />
-      <workItem from="1570896755849" duration="6722000" />
+      <workItem from="1570896755849" duration="7630000" />
+      <workItem from="1570926893199" duration="3255000" />
+      <workItem from="1570997567740" duration="4527000" />
+      <workItem from="1571145324902" duration="3042000" />
+      <workItem from="1571148476216" duration="385000" />
+      <workItem from="1571771191254" duration="30000" />
     </task>
     <servers />
   </component>

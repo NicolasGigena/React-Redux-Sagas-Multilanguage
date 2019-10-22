@@ -1,8 +1,10 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import { routerMiddleware } from 'connected-react-router';
 import createSagaMiddleware from 'redux-saga';
-import createReducer from './reducers';
 import { createLogger } from 'redux-logger';
+import createReducer from './reducers';
+
+const isProd = process.env.NODE_ENV === 'production';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -10,12 +12,20 @@ export default function configureStore(initialState = {}, history) {
   // Create the store with two middlewares
   // 1. sagaMiddleware: Makes redux-sagas work
   // 2. routerMiddleware: Syncs the location/URL path to the state
-  const loggerMiddleware = createLogger({
-    stateTransformer(state) {
-      return state;
-    },
-  });
-  const middlewares = [sagaMiddleware, routerMiddleware(history),loggerMiddleware];
+  let middlewares;
+
+  if (!isProd) {
+    const loggerMiddleware = createLogger({
+      stateTransformer(state) {
+        return state;
+      },
+    });
+
+    middlewares = [sagaMiddleware, routerMiddleware(history), loggerMiddleware];
+  } else {
+    middlewares = [sagaMiddleware, routerMiddleware(history)];
+  }
+
 
   const enhancers = [applyMiddleware(...middlewares)];
 
@@ -31,9 +41,9 @@ export default function configureStore(initialState = {}, history) {
   /* eslint-enable */
 
   const store = createStore(
-        createReducer(),
-        initialState,
-        composeEnhancers(...enhancers));
+    createReducer(),
+    initialState,
+    composeEnhancers(...enhancers));
 
   // Extensions
   store.runSaga = sagaMiddleware.run;

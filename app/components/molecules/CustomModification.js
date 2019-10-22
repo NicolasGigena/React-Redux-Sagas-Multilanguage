@@ -19,7 +19,9 @@ class CustomModification extends Component {
 
     const { value } = this.amountToModify.current;
 
-    this.dispatch(actions.modifyExactly(modifier, value));
+    if (value.trim() !== '') {
+      this.dispatch(actions.modifyExactly(modifier, value));
+    }
   }
 
   render() {

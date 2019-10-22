@@ -33,13 +33,7 @@ module.exports = {
       name: 'wantActionsAndReducer',
       default: true,
       message:
-        'Do you want an actions/constants/selectors/reducer tuple for this container?',
-    },
-    {
-      type: 'confirm',
-      name: 'wantSaga',
-      default: true,
-      message: 'Do you want sagas for asynchronous flows? (e.g. fetching data)',
+        'Do you want an actions/selectors/reducer tuple for this container?',
     },
     {
       type: 'confirm',
@@ -70,14 +64,7 @@ module.exports = {
         path: '../../app/components/atoms/{{properCase name}}/tests/index.test.js',
         templateFile: './utils/seeds/atoms/test.js.hbs',
         abortOnFail: true,
-      },
-      // Loadable
-      {
-        type: 'add',
-        path: '../../app/components/atoms/{{properCase name}}/Loadable.js',
-        templateFile: './utils/seeds/loadable.js.hbs',
-        abortOnFail: true,
-      },
+      }
     ];
 
     // If component wants messages

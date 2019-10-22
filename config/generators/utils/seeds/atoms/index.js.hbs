@@ -3,44 +3,21 @@
  * {{properCase name }}
  *
  */
-{{#if wantHeaders}}
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Helmet } from 'react-helmet';
-{{else}}
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-{{/if}}
-
-{{#if wantMessages}}
-import { FormattedMessage } from 'react-intl';
-{{/if}}
-
-const {{ properCase name }} = (props) => {
-  const { className } = props
-
-  return(
-    <div>
-      {{#if wantHeaders}}
-        <Helmet>
-          <title>{{properCase name}}</title>
-          <meta
-            name="description"
-            content="Description of {{properCase name}}"
-          />
-        </Helmet>
-      {{/if}}
-    <h3>hi</h3>
-    </div>
-  )
-}
-
-{{ properCase name }}.propTypes = {
-  className: PropTypes.string
+const {{properCase name }} = (props) => {
+return (
+<div>
+    <h3>Hi</h3>
+</div>
+);
 };
 
-export default {{ properCase name }};
+{{properCase name }}.propTypes = {
+};
+
+export default {{properCase name }};
 
 
 

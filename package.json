@@ -20,7 +20,7 @@
     "start": "cross-env NODE_ENV=development node server --port 3003 ",
     "start:prod": "cross-env NODE_ENV=production node server",
     "start:production": "yarn run test && npm run build && npm run start:prod",
-    "pretest": "yarn run test:clean && yarn run lint",
+    "pretest": "yarn run test:clean",
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:clean": "rimraf ./coverage",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
@@ -28,7 +28,6 @@
     "prettify": "prettier --write"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4",
     "chalk": "^2.4.2",
     "compression": "1.7.4",
     "connected-react-router": "^6.4.0",
@@ -62,6 +61,7 @@
     "whatwg-fetch": "3.0.0"
   },
   "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
     "@babel/cli": "7.4.4",
     "@babel/core": "7.4.5",
     "@babel/plugin-proposal-class-properties": "7.4.4",
